@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="System Suite">
+  <test name="Widget Test">
+    <classes>
+      <class name="TestNG.Programmes.Day_2_RunningManyTestSuitFile1">
+      </class>
+    </classes>
+  </test> <!--Comments here-->
+    <test name="login Test">
+    <classes>
+      <class name="TestNG.Programmes.Day_2_RunningManyTestSuitFile2">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Home Login">
+    <classes>
+      <class name="TestNG.Programmes.Day_2_RunningManyTestSuitFile3">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

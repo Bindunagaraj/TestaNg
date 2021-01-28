@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNG.Programmes.Day_3_extentreportGenerating">
+        <methods>
+          <include name="userNameValidation" invocation-numbers="0"/>
+          <include name="getURL"/>
+          <include name="quitBrowser"/>
+          <include name="reportGenerator"/>
+          <include name="LaunchBrowser"/>
+          <include name="closingAll"/>
+        </methods>
+      </class> <!-- TestNG.Programmes.Day_3_extentreportGenerating -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
